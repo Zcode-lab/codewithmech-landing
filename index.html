@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="CodeWithMech builds modern, fast, animated websites for restaurants, cafes, clubs, hotels, salons, gyms, real estate agencies, clinics, and local businesses."
+  />
+  <meta name="theme-color" content="#0A0A0A" />
+
+  <title>CodeWithMech - Modern Websites That Grow Your Business</title>
+
+  <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)" />
+  <link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin />
+  <link
+    href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap)"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="loader" aria-hidden="true">
+    <div class="loader__content">
+      <span class="loader__logo">CodeWithMech</span>
+      <div class="loader__bar">
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header" data-header>
+    <nav class="nav container" aria-label="Primary navigation">
+      <a href="#home" class="nav__logo magnetic" aria-label="CodeWithMech home">
+        CodeWith<span>Mech</span>
+      </a>
+
+      <button class="nav__toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav__menu" data-menu>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <a href="#contact" class="nav__cta magnetic">Start Project</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="orb orb--one"></span>
+        <span class="orb orb--two"></span>
+        <span class="orb orb--three"></span>
+      </div>
+
+      <div class="particles" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow reveal-text">Modern Website Design Agency</p>
+
+          <h1 class="hero__title reveal-text">
+            Websites That Make Businesses Stand Out.
+          </h1>
+
+          <p class="hero__subtitle reveal-text">
+            We build modern, fast, animated websites that help businesses attract more customers.
+          </p>
+
+          <div class="hero__actions reveal-fade">
+            <a href="#portfolio" class="btn btn--primary magnetic">
+              View Portfolio
+              <span></span>
+            </a>
+
+            <a href="#contact" class="btn btn--secondary magnetic">
+              Get a Free Consultation
+            </a>
+          </div>
+
+          <div class="hero__stats reveal-fade" aria-label="Agency statistics">
+            <div>
+              <strong data-counter="50">0</strong>
+              <span>Projects</span>
+            </div>
+            <div>
+              <strong data-counter="98">0</strong>
+              <span>Performance</span>
+            </div>
+            <div>
+              <strong data-counter="24">0</strong>
+              <span>Support</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual image-reveal">
+          <div class="browser-card">
+            <div class="browser-card__top">
+              <span></span><span></span><span></span>
+            </div>
+
+            <div class="browser-card__screen">
+              <div class="mock mock--large"></div>
+              <div class="mock mock--small"></div>
+              <div class="mock mock--line"></div>
+              <div class="mock mock--line short"></div>
+
+              <div class="mini-card mini-card--one">
+                <strong>+42%</strong>
+                <span>More leads</span>
+              </div>
+
+              <div class="mini-card mini-card--two">
+                <strong>Fast</strong>
+                <span>Optimized UX</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container section-grid">
+        <div>
+          <p class="eyebrow">About CodeWithMech</p>
+          <h2 class="section-title">
+            Digital experiences designed to convert visitors into customers.
+          </h2>
+        </div>
+
+        <div class="section-copy">
+          <p>
+            CodeWithMech is a modern web design and development agency helping local businesses build a powerful online presence. We create premium websites that look beautiful, load fast, work on every device, and guide customers toward taking action.
+          </p>
+          <p>
+            From restaurants and cafes to gyms, salons, hotels, clinics, clubs, and real estate agencies, we design websites that feel memorable, trustworthy, and built for growth.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">What We Build</p>
+          <h2 class="section-title">Premium websites for ambitious local brands.</h2>
+        </div>
+
+        <div class="card-grid services__grid">
+          <article class="service-card tilt-card">
+            <span>01</span>
+            <h3>Website Design</h3>
+            <p>Elegant layouts, premium visuals, and conversion-focused user journeys.</p>
+          </article>
+
+          <article class="service-card tilt-card">
+            <span>02</span>
+            <h3>Website Development</h3>
+            <p>Clean, fast, responsive code built for performance and scalability.</p>
+          </article>
+
+          <article class="service-card tilt-card">
+            <span>03</span>
+            <h3>Landing Pages</h3>
+            <p>Focused pages designed to generate leads from ads, Instagram, and WhatsApp.</p>
+          </article>
+
+          <article class="service-card tilt-card">
+            <span>04</span>
+            <h3>Restaurant Websites</h3>
+            <p>Menus, galleries, booking sections, offers, and customer-friendly design.</p>
+          </article>
+
+          <article class="service-card tilt-card">
+            <span>05</span>
+            <h3>Club Websites</h3>
+            <p>High-energy visuals for events, nightlife, bookings, and VIP experiences.</p>
+          </article>
+
+          <article class="service-card tilt-card">
+            <span>06</span>
+            <h3>Hotel Websites</h3>
+            <p>Luxury digital experiences that showcase rooms, amenities, and bookings.</p>
+          </article>
+
+          <article class="service-card tilt-card">
+            <span>07</span>
+            <h3>Business Websites</h3>
+            <p>Professional websites for clinics, salons, agencies, gyms, and local brands.</p>
+          </article>
+
+          <article class="service-card tilt-card">
+            <span>08</span>
+            <h3>Website Redesign</h3>
+            <p>Transform outdated websites into modern, fast, premium experiences.</p>
+          </article>
+
+          <article class="service-card tilt-card">
+            <span>09</span>
+            <h3>Website Maintenance</h3>
+            <p>Ongoing updates, improvements, bug fixes, and technical support.</p>
+          </article>
+
+          <article class="service-card tilt-card">
+            <span>10</span>
+            <h3>SEO Ready Websites</h3>
+            <p>Structured, accessible, search-friendly websites with strong technical foundations.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="why section">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">Why Choose Us</p>
+          <h2 class="section-title">Built for beauty, speed, and business growth.</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card"><h3>Mobile First</h3><p>Designed for the devices your customers use every day.</p></article>
+          <article class="feature-card"><h3>Lightning Fast</h3><p>Optimized pages that feel smooth and load quickly.</p></article>
+          <article class="feature-card"><h3>Premium Design</h3><p>Modern visuals that build trust instantly.</p></article>
+          <article class="feature-card"><h3>SEO Optimized</h3><p>Clean structure, metadata, and performance-focused foundations.</p></article>
+          <article class="feature-card"><h3>Responsive</h3><p>Perfect layouts across desktop, tablet, and mobile.</p></article>
+          <article class="feature-card"><h3>Affordable</h3><p>Premium quality without studio-level pricing.</p></article>
+          <article class="feature-card"><h3>Secure</h3><p>Best practices that protect your website experience.</p></article>
+          <article class="feature-card"><h3>Modern Animations</h3><p>Smooth motion that feels premium, not distracting.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Selected Work</p>
+          <h2 class="section-title">Placeholder projects with premium visual direction.</h2>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-card">
+            <div class="portfolio-card__image gradient-restaurant" loading="lazy"></div>
+            <div class="portfolio-card__content">
+              <span>Restaurant Website</span>
+              <h3>Luxury Restaurant</h3>
+            </div>
+          </article>
+
+          <article class="portfolio-card">
+            <div class="portfolio-card__image gradient-club" loading="lazy"></div>
+            <div class="portfolio-card__content">
+              <span>Nightlife Website</span>
+              <h3>Nightclub</h3>
+            </div>
+          </article>
+
+          <article class="portfolio-card">
+            <div class="portfolio-card__image gradient-coffee" loading="lazy"></div>
+            <div class="portfolio-card__content">
+              <span>Cafe Website</span>
+              <h3>Coffee Shop</h3>
+            </div>
+          </article>
+
+          <article class="portfolio-card">
+            <div class="portfolio-card__image gradient-gym" loading="lazy"></div>
+            <div class="portfolio-card__content">
+              <span>Fitness Website</span>
+              <h3>Fitness Gym</h3>
+            </div>
+          </article>
+
+          <article class="portfolio-card">
+            <div class="portfolio-card__image gradient-hotel" loading="lazy"></div>
+            <div class="portfolio-card__content">
+              <span>Hospitality Website</span>
+              <h3>Luxury Hotel</h3>
+            </div>
+          </article>
+
+          <article class="portfolio-card">
+            <div class="portfolio-card__image gradient-realestate" loading="lazy"></div>
+            <div class="portfolio-card__content">
+              <span>Property Website</span>
+              <h3>Real Estate Agency</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="process section">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">Our Process</p>
+          <h2 class="section-title">A smooth path from idea to launch.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item"><span>01</span><h3>Discovery</h3><p>We understand your business, goals, audience, and competitors.</p></article>
+          <article class="timeline-item"><span>02</span><h3>Planning</h3><p>We define the structure, sections, content flow, and conversion strategy.</p></article>
+          <article class="timeline-item"><span>03</span><h3>Design</h3><p>We create a modern visual direction that matches your brand.</p></article>
+          <article class="timeline-item"><span>04</span><h3>Development</h3><p>We build a responsive, fast, animated website with clean code.</p></article>
+          <article class="timeline-item"><span>05</span><h3>Launch</h3><p>We test, optimize, and publish your website professionally.</p></article>
+          <article class="timeline-item"><span>06</span><h3>Support</h3><p>We help with updates, improvements, and future growth.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Testimonials</p>
+          <h2 class="section-title">Trusted by business owners who care about presentation.</h2>
+        </div>
+
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <p>"The website instantly made our restaurant look more premium. Customers now message us directly from the site."</p>
+            <div>
+              <strong>Aarav Sharma</strong>
+              <span>Restaurant Owner</span>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <p>"Clean design, fast delivery, and beautiful animations. Our gym website finally feels professional."</p>
+            <div>
+              <strong>Neha Kapoor</strong>
+              <span>Fitness Studio Founder</span>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <p>"CodeWithMech redesigned our old website into something modern, smooth, and easy for clients to use."</p>
+            <div>
+              <strong>Rohan Mehta</strong>
+              <span>Real Estate Consultant</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section">
+      <div class="container faq__grid">
+        <div>
+          <p class="eyebrow">FAQ</p>
+          <h2 class="section-title">Questions business owners often ask.</h2>
+        </div>
+
+        <div class="accordion">
+          <article class="accordion-item">
+            <button class="accordion-btn" type="button">
+              How long does a website take?
+              <span>+</span>
+            </button>
+            <div class="accordion-panel">
+              <p>Most business websites take 7 to 21 days depending on the number of pages, features, content, and revisions.</p>
+            </div>
+          </article>
+
+          <article class="accordion-item">
+            <button class="accordion-btn" type="button">
+              Can you redesign my old website?
+              <span>+</span>
+            </button>
+            <div class="accordion-panel">
+              <p>Yes. We can redesign your current website with a modern layout, better performance, improved mobile experience, and stronger calls to action.</p>
+            </div>
+          </article>
+
+          <article class="accordion-item">
+            <button class="accordion-btn" type="button">
+              Will my website work on mobile?
+              <span>+</span>
+            </button>
+            <div class="accordion-panel">
+              <p>Yes. Every website is built mobile-first and tested across screen sizes for a smooth experience.</p>
+            </div>
+          </article>
+
+          <article class="accordion-item">
+            <button class="accordion-btn" type="button">
+              Do you connect WhatsApp and Instagram?
+              <span>+</span>
+            </button>
+            <div class="accordion-panel">
+              <p>Yes. We add direct WhatsApp and Instagram buttons so customers can contact your business quickly.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="container contact__grid">
+        <div class="contact__content">
+          <p class="eyebrow">Start Your Website</p>
+          <h2 class="section-title">Ready to turn visitors into customers?</h2>
+          <p>
+            Share your business details and we will help you plan a modern website that looks premium, loads fast, and brings more inquiries.
+          </p>
+
+          <div class="contact__buttons">
+            <a
+              href="[wa.me](https://wa.me/919999999999?text=Hi%20CodeWithMech%2C%20I%20want%20a%20website%20for%20my%20business)"
+              class="btn btn--primary magnetic"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WhatsApp
+              <span></span>
+            </a>
+
+            <a
+              href="[instagram.com](https://instagram.com/codewithmech)"
+              class="btn btn--secondary magnetic"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" aria-label="Contact form">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+
+          <label>
+            Business Name
+            <input type="text" name="business" placeholder="Your business name" required />
+          </label>
+
+          <label>
+            Phone
+            <input type="tel" name="phone" placeholder="+91 98765 43210" required />
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Tell us about your project"></textarea>
+          </label>
+
+          <button type="submit" class="btn btn--primary magnetic">
+            Send Inquiry
+            <span></span>
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="#home" class="footer__logo">CodeWith<span>Mech</span></a>
+        <p>Modern Websites That Grow Your Business</p>
+      </div>
+
+      <div>
+        <h3>Navigation</h3>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div>
+        <h3>Services</h3>
+        <a href="#services">Website Design</a>
+        <a href="#services">Landing Pages</a>
+        <a href="#services">Website Redesign</a>
+        <a href="#services">Maintenance</a>
+      </div>
+
+      <div>
+        <h3>Social</h3>
+        <a href="[instagram.com](https://instagram.com/codewithmech)" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="[wa.me](https://wa.me/919999999999)" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© 2026 CodeWithMech. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="[unpkg.com](https://unpkg.com/lenis@1.1.18/dist/lenis.min.js)"></script>
+  <script src="[cdnjs.cloudflare.com](https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js)"></script>
+  <script src="[cdnjs.cloudflare.com](https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js)"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
